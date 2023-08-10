@@ -19,16 +19,22 @@ public class Start {
 		x.a = sc.nextDouble();
 		x.b = sc.nextDouble();
 		x.c = sc.nextDouble();
+		
 		System.out.println("Informe as medidas do triângulo Y: ");
 		y.a = sc.nextDouble();
 		y.b = sc.nextDouble();
 		y.c = sc.nextDouble();
 		
 		double areaX = x.area();
-		double areaY = y.area();
 		
-		System.out.printf("A área do triângulo X é %.2f%n", areaX);
-		System.out.printf("A área do triângulo Y é %.2f", areaY);
+		double areaY = y.area();		
+		
+		System.out.printf("A área do triângulo X é %.2f\n", areaX);
+		x.showTypeTriangle();
+		System.out.printf("A área do triângulo Y é %.2f\n", areaY);		
+		y.showTypeTriangle();
+		
+		sc.close();
 
 	}
 
