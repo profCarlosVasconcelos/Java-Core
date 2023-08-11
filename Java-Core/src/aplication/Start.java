@@ -3,7 +3,6 @@ package aplication;
 import java.util.Locale;
 import java.util.Scanner;
 
-import javax.swing.JOptionPane;
 
 import entities.Triangle;
 

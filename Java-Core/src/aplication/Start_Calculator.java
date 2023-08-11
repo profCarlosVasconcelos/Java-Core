@@ -19,7 +19,8 @@ public class Start_Calculator {
 		System.out.printf("Circumference: %.2f%n", c);
 		System.out.printf("Volume: %.2f%n", v);
 		System.out.printf("PI value: %.2f%n", calc.PI);
-
+		
+		sc.close();
 	}
 
 }
