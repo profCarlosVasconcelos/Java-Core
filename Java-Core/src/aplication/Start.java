@@ -3,6 +3,8 @@ package aplication;
 import java.util.Locale;
 import java.util.Scanner;
 
+import javax.swing.JOptionPane;
+
 import entities.Triangle;
 
 public class Start {
@@ -15,7 +17,7 @@ public class Start {
 		x = new Triangle();
 		y = new Triangle();
 		
-		System.out.println("Informe as medidas do triângulo X: ");
+		System.out.println("Informe as medidas do triângulo X: ");		
 		x.a = sc.nextDouble();
 		x.b = sc.nextDouble();
 		x.c = sc.nextDouble();
