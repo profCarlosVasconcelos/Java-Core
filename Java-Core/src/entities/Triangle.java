@@ -13,10 +13,13 @@ public class Triangle {
 	public void showTypeTriangle() {
 		if (a == b && b == c) {
 			System.out.println("Este triangulo é equilátero!");
+			System.out.println("Sua área é: " + area());
 		} else if (a == b || a == c || b == c) {
 			System.out.println("Este triangulo é isósceles!");
+			System.out.println("Sua área é: " + area());
 		} else {
 			System.out.println("Este triangulo é escaleno!");
+			System.out.println("Sua área é: " + area());
 		}
 	}
 }

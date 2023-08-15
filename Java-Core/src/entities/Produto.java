@@ -1,26 +1,26 @@
 package entities;
 
 public class Produto {
-	public String nome;
-	public double preco;
-	public int quantidade;
-	
-/*
- * Construtor padrão**/
+	String nome;
+	double preco;
+	int quantidade;
+
+	/*
+	 * Construtor padrão
+	 **/
 	public Produto() {
-		
+
 	}
 
-	
 	/*
 	 * Construtor personalizado
 	 **/
-	
+
 	public Produto(String nome, double preco) {
 		this.nome = nome;
 		this.preco = preco;
 	}
-	
+
 	public Produto(String nome, double preco, int quantidade) {
 		this.nome = nome;
 		this.preco = preco;
