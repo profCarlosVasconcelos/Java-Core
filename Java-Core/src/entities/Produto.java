@@ -1,17 +1,24 @@
 package entities;
 
 public class Produto {
-	String nome;
-	double preco;
-	int quantidade;
+	private String nome;
+	private double preco;
+	private int quantidade;
+
+	public String getNome() {
+		return nome;
+	}
+	
+	public String setNome() {
+		return nome;
+	}
 
 	/*
 	 * Construtor padrão
 	 **/
-	public Produto() {
-
-	}
-
+		public Produto() {
+			
+		}
 	/*
 	 * Construtor personalizado
 	 **/
