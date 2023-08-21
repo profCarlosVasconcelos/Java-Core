@@ -5,17 +5,15 @@ public class Produto {
 	private double preco;
 	private int quantidade;
 
-	
 	// Construtores--------------------------------------------
 	/*
 	 * Construtor padrão
 	 **/
-	public Produto() {
-
-	}
-
+		public Produto() {
+			
+		}
 	/*
-	 * Construtor personalizado
+	 * Construtor personalizado sobrecarregado
 	 **/
 
 	public Produto(String nome, double preco) {
@@ -33,23 +31,22 @@ public class Produto {
 	public String getNome() {
 		return nome;
 	}	
-	public void setNome(String nome) {
+	public void setNome(String nome){
 		this.nome = nome;
 	}
-	
 	public double getPreco() {
 		return preco;
 	}
 	public void setPreco(double preco) {
 		this.preco = preco;
 	}
-	
 	public int getQuantidade() {
 		return quantidade;
 	}
-	public void setQuantidade(int quantidade) {
-		this.quantidade = quantidade;
-	}
+	
+	
+	
+	
 	
 	// Métodos ------------------------------------------------
 	public double valorTotalEmEstoque() {

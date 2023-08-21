@@ -15,7 +15,12 @@ public class Start_Produto {
 		
 		System.out.println("Informe as informações do produto: ");
 		System.out.print("Nome: ");
+
+		//String nome  = sc.nextLine();
+		//produto.nome;
+
 		//produto.nome = sc.nextLine();
+
 		
 		System.out.print("Preco: ");
 		//produto.preco = sc.nextDouble();
