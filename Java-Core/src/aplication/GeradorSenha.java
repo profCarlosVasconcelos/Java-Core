@@ -19,7 +19,7 @@ public class GeradorSenha {
     }
 
     public static void main(String[] args) {
-        int tamanhoSenha = 14;
+        int tamanhoSenha = 10;
         String senhaGerada = gerarSenha(tamanhoSenha);
         System.out.println("Senha gerada: " + senhaGerada);
     }

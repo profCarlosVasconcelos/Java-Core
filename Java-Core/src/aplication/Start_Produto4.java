@@ -6,9 +6,12 @@ import java.util.Scanner;
 import entities.Produto;
 
 public class Start_Produto4 {
+	
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
+		
+		
 		Scanner sc = new Scanner(System.in);
 
 		Produto produto = new Produto(null, 0, 0);
@@ -17,7 +20,9 @@ public class Start_Produto4 {
 		System.out.print("Nome: ");
 		String nome = sc.nextLine();
 		produto.setNome(nome);
-
+	
+	
+		
 		System.out.print("Preco: ");
 		double preco = sc.nextDouble();
 		produto.setPreco(preco);

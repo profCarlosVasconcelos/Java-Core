@@ -76,6 +76,8 @@ public class Deslocamento {
         double tempo = calcularDistancia() / velocidade;
         return tempo;
     }
+    
+  
 /*
  * Para usar esta classe, você pode criar um objeto Deslocamento e definir os valores dos atributos x1, y1, x2 e y2.
  * Em seguida, você pode chamar o método calcularDistancia() para obter a distância entre os dois pontos e
