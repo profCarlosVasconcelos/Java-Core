@@ -1,10 +1,7 @@
 package aplication;
 
-import java.awt.JobAttributes;
 import java.util.Locale;
-
 import javax.swing.JOptionPane;
-
 import entities.Conta;
 
 public class Start_Conta {

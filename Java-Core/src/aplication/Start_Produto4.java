@@ -19,15 +19,15 @@ public class Start_Produto4 {
 		System.out.println("Nome: ");
 		String nome = sc.nextLine();
 		produto.setNome(nome);
-<<<<<<< HEAD
+
 	
 	
 		
 		System.out.print("Preco: ");
-=======
+
 		
 		System.out.println("Preço: ");
->>>>>>> branch 'main' of https://github.com/profCarlosVasconcelos/Java-Core.git
+
 		double preco = sc.nextDouble();
 		produto.setPreco(preco);
 			
