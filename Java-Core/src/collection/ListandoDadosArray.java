@@ -11,6 +11,7 @@ public class ListandoDadosArray {
 		for (int i = 0; i < notas.length; i++) {
 			System.out.println(notas[i]);
 		}
+		
 		System.out.println("-----Lista com Foreach---------");
 		for (double nota : notas) { // para cada nota, exiba notas
 			System.out.println(nota);
