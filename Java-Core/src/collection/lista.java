@@ -48,7 +48,6 @@ public class lista {
 //------------------------------------------------------------------------
 		// Indentificar a posição de um elemento
 		System.out.println("Index de Roberta: " + lista.indexOf("Roberta"));
-
 	}
 
 }
