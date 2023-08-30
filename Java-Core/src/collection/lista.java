@@ -35,9 +35,9 @@ public class lista {
 
 		// Remover um elemento com uso de predicado.
 		// remover todos que iniciam com a letra F.
-
+		// Para remover um elemento por predicado, o elemento é o removeif.
 		lista.removeIf(nome -> nome.charAt(0) == 'F'); // Remover todo String nome, tal que nome.chaAt(0) seja igual a F
-		// Isso é conheciod como uma função lambda.
+		// Isso é conhecido como uma função lambda.
 		System.out.println("Tamanho da lista: " + lista.size());
 
 		// Percorrer a lista com uso do foreach

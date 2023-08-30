@@ -1,6 +1,5 @@
 package collection;
 
-import java.util.Arrays;
 
 public class NotasAlunos {
 
