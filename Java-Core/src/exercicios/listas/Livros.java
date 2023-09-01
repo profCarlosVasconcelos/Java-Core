@@ -5,7 +5,9 @@ import java.util.List;
 
 public class Livros {
 
-	private List<String> titulos;
+	private List<String> titulos = new ArrayList<>();;
+	
+	
 
 	public Livros() {
 		this.titulos = new ArrayList<>();
@@ -27,12 +29,15 @@ public class Livros {
 	}
 	
 	
-	public void removerLivro(String titulo) {
+	public int removerLivro(String titulo) {
 	    // Encontra o índice do elemento a ser removido
-	    int index = this.titulos.indexOf(titulo);
-
-	    // Remove o elemento da lista
-	    this.titulos.remove(index);
+		//this.titulos.indexOf(titulos);
+		int index = this.titulos.indexOf(titulo);
+	    return titulos.indexOf(titulo);
+	 
+//
+//	    // Remove o elemento da lista
+	    this.titulos.remove(titulos);
 	}
 	
 

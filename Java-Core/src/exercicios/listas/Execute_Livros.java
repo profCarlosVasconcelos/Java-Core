@@ -2,6 +2,7 @@ package exercicios.listas;
 
 import java.util.List;
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Execute_Livros {
 
@@ -26,6 +27,7 @@ public class Execute_Livros {
 		// instânciar um objeto dos livros
 		Livros livros = new Livros();
 		
+		
 		// Método adicionar livros
 		livros.adicionarLivro(idLivro, autor, obra, ano, genero, editora, paginas);
 		
@@ -34,12 +36,16 @@ public class Execute_Livros {
 
 		for (String titulo : titulos) {
 		    System.out.println(titulo);
+		    
 		}
 		
 		// Listar elementos
 		livros.exibirQuantidadeElementos();
 			// Remover elementos
-		livros.removerLivro("O Pequeno Príncipe");
+		//livros.removerLivro("O Pequeno Príncipe");
+		System.out.println("Index do idLivro: " + livros.removerLivro("77"));
+		//livros.removerLivro("777");
+		
 		
 		sc.close();
 

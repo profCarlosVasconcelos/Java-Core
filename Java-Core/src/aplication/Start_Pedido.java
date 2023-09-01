@@ -11,19 +11,19 @@ public class Start_Pedido {
 		
 		// instanciar um novo objeto
 		
-		Pedido pedido1 = new Pedido(777, new Date(), StatusPedido.PENDENTE_DE_PAGAMENTO);
+		Pedido pedido1 = new Pedido(777, new Date(), StatusPedido.PROCESSANDO);
 		
 		System.out.println(pedido1);
 		
-		//Convertendo um objeto String em enum;
-		// Instaância de pedido02, recebendo status de entregue
+		// é importante porque no scanner o tipo é String e não enum
+		// Convertendo um objeto String em enum;
+		// Instância de pedido02, recebendo status de entregue
 		StatusPedido pedido02 = StatusPedido.ENTREGUE;
 		
-		//StatusPedido pedido03 = StatusPedido.valueOf("ENTREGUE");
+		StatusPedido pedido03 = StatusPedido.valueOf("ENTREGUE");
 		
 		System.out.println(pedido02);
-		//System.out.println(pedido03);
-		
+		System.out.println(pedido03);
 	}
 
 }
