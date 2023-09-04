@@ -37,7 +37,7 @@ public class Livros {
 	 
 //
 //	    // Remove o elemento da lista
-	    this.titulos.remove(titulos);
+	   // this.titulos.remove(titulos);
 	}
 	
 

@@ -2,7 +2,7 @@ package exercicios.listas;
 
 import java.util.List;
 import java.util.Scanner;
-import java.util.ArrayList;
+
 
 public class Execute_Livros {
 
