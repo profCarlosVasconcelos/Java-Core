@@ -18,7 +18,7 @@ public class Conta {
 	/**
 	 * O saldo da conta.
 	 */
-	private Double saldoConta;
+	 protected Double saldoConta;
 
 	public Conta() {
 		/**
